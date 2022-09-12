@@ -1,6 +1,6 @@
 # Facial Keypoint Detection
 
-This mini project on **Facial Keypoints Detection** will be all about defining and training a convolutional neural network to perform facial keypoint detection, and using computer vision techniques to process images. 
+This mini project on **Facial Keypoints Detection** is on defining and training a convolutional neural network to perform facial keypoint detection, and using computer vision techniques to process images. 
 
 Facial keypoints are shown by the small magenta dots shown on each of the faces in the image below. Facial Landmark Localization is the detection and localization of certain key regions or landmarks in a human’s face such as: eyes, nose, lips, and others. These keypoints are relevant for a variety of tasks, such as face filters, emotion recognition, pose recognition, and so on. 
 
