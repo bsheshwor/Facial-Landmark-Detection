@@ -20,3 +20,9 @@ Let's look at some sample outputs:
 ![I1](SS/I1.png)
 
 The code is able to look at any image, detect faces, and predict the locations of facial keypoints on the face.
+
+After training the model, we were able to receive an average loss of 0.09344655024351004
+
+The following graph shows the decreasing loss with each iteration of training:
+
+![I4](SS/I5.png)
