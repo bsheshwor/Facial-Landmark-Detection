@@ -176,8 +176,8 @@ if __name__=="__main__":
                 cropped = cv2.circle(cv2.UMat(cropped),(int(i),int(j)),1,(250,0,0),-1)
                 face = cv2.rectangle(face,(int(face_map[0][0]),(int(face_map[0][1]))),(int(face_map[1][0]),int(face_map[1][1])),(100,255,100),2)
 
-            # cv2.imshow('frame',frame)
-            # cv2.imshow('cropped',cropped)
+            cv2.imshow('frame',frame)
+            cv2.imshow('cropped',cropped)
             cv2.imshow('face_map',face)
             # Press Q on keyboard to stop recording
             if cv2.waitKey(10) & 0xFF == ord('q'):
