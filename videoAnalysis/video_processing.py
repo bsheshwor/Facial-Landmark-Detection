@@ -93,7 +93,7 @@ class Net(nn.Module):
         return x
 
 FLDmodel = Net()
-FLDmodel.load_state_dict(torch.load('COMP484/Facial-Landmark-Detection/keypoints_model_1.pt'))
+FLDmodel.load_state_dict(torch.load('keypoints_model_1.pt'))
 FLDmodel.eval()
 
 def show(image, key_pts=None):

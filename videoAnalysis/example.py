@@ -57,7 +57,7 @@ class Net(nn.Module):
         return x
 
 FLDmodel = Net()
-FLDmodel.load_state_dict(torch.load('COMP484/Facial-Landmark-Detection/keypoints_model_1.pt'))
+FLDmodel.load_state_dict(torch.load('keypoints_model_1.pt'))
 FLDmodel.eval()
 
 def show(image, key_pts=None):
@@ -108,7 +108,7 @@ def out(image):
 
 
 if __name__=="__main__":
-    og = mpimg.imread('COMP484/Facial-Landmark-Detection/CV/sajan.jpg')
+    og = mpimg.imread('CV/sajan.jpg')
 
     output = out(og.copy())
     show(og,output)

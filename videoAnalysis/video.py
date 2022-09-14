@@ -11,7 +11,7 @@ frame_height = int(camera.get(4))
 
 print(frame_width,frame_height)
 
-out = cv2.VideoWriter('COMP484/Facial-Landmark-Detection/CV/outpy.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (frame_width,frame_height))
+out = cv2.VideoWriter('CV/outpy.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (frame_width,frame_height))
 
 # def crop(image):
 #     out = np.empty([224,224])
